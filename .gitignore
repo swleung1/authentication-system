@@ -91,3 +91,22 @@ dist/*
 !.htaccess
 !.eslintrc
 .now
+
+# Python
+backend/venv/
+*.pyc
+__pycache__/
+
+# Node
+node_modules/
+
+# envs
+.env
+backend/.env
+frontend/.env
+
+# Vite build
+dist/
+
+# IDE
+.vscode/
